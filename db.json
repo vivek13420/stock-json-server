@@ -8,7 +8,7 @@
       "stock_exchange": "NSE",
       "total_shares": 50000,
       "cost_per_share": 4210,
-      "price_action": 12
+      "price_action": 13
     },
     {
       "id": 2,
@@ -19,6 +19,56 @@
       "total_shares": 20000,
       "cost_per_share": 2132,
       "price_action": 4
+    },
+    {
+      "company_logo": "https://logolook.net/wp-content/uploads/2021/11/HDFC-Bank-Logo.png",
+      "company_name": "asclepius",
+      "company_type": "Pharma",
+      "stock_exchange": "BSE",
+      "total_shares": 12121,
+      "cost_per_share": 121,
+      "price_action": 13,
+      "id": 3
+    },
+    {
+      "company_logo": "https://logolook.net/wp-content/uploads/2023/02/Lynk-Co-Logo.png",
+      "company_name": "lynk company",
+      "company_type": "Automobile",
+      "stock_exchange": "BSE",
+      "total_shares": 12000,
+      "cost_per_share": 12100,
+      "price_action": 7,
+      "id": 4
+    },
+    {
+      "company_logo": "https://logolook.net/wp-content/uploads/2023/01/DHgate-Logo.png",
+      "company_name": "DH Gate",
+      "company_type": "IT",
+      "stock_exchange": "BSE",
+      "total_shares": 12121,
+      "cost_per_share": 121,
+      "price_action": 12,
+      "id": 5
+    },
+    {
+      "company_logo": "https://logolook.net/wp-content/uploads/2023/01/Sugar-Cosmetics-Logo.png",
+      "company_name": "Sugar Cosmetics",
+      "company_type": "IT",
+      "stock_exchange": "BSE",
+      "total_shares": 12121,
+      "cost_per_share": 121,
+      "price_action": 90,
+      "id": 6
+    },
+    {
+      "company_logo": "https://logolook.net/wp-content/uploads/2021/06/Youtube-Logo.png",
+      "company_name": "Youtube",
+      "company_type": "IT",
+      "stock_exchange": "BSE",
+      "total_shares": 12121,
+      "cost_per_share": 121,
+      "price_action": 13,
+      "id": 7
     }
   ],
   "users": [
@@ -26,19 +76,61 @@
       "username": "__utopian_",
       "email": "vivekrana13420@gmail.com",
       "password": "1234",
-      "id": 1
+      "id": 1,
+      "stocks_owned": [
+        {
+          "company_id": 2,
+          "company_name": "Reliance Industries",
+          "quantity": 12
+        },
+        {
+          "company_id": 3,
+          "company_name": "asclepius",
+          "quantity": 44
+        },
+        {
+          "company_id": 5,
+          "company_name": "DH Gate",
+          "quantity": 421
+        }
+      ]
     },
     {
       "username": "vivek13420",
       "email": "vivek13420@gmail.com",
       "password": "1234",
-      "id": 2
+      "id": 2,
+      "stocks_owned": [
+        {
+          "company_id": 1,
+          "quantity": 10
+        },
+        {
+          "company_id": 3,
+          "quantity": 20
+        }
+      ]
     },
     {
       "username": "admin",
       "email": "admin@stockbroker.com",
       "password": "admin123",
-      "id": 3
+      "id": 3,
+      "stocks_owned": []
+    },
+    {
+      "username": "vivekrana13420",
+      "email": "ali@gmail.com",
+      "password": "123456",
+      "id": 4,
+      "stocks_owned": []
+    },
+    {
+      "username": "bunty123",
+      "email": "youdhbeer@gmail.com",
+      "password": "1234",
+      "stocks_owned": [],
+      "id": 5
     }
   ]
 }
